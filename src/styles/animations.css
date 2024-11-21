@@ -1,0 +1,61 @@
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.bike-container {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.bike-container:hover {
+  transform: scale(1.02);
+}
+
+.bike-image {
+  animation: float 3s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.bike-image:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.bike-animation:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
