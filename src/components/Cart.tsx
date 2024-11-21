@@ -7,8 +7,8 @@ interface CartProps {
   isOpen: boolean;
   onClose: () => void;
   items: CartItem[];
-  onUpdateQuantity: (id: number, quantity: number, selectedColor: string) => void;
-  onRemoveItem: (id: number, selectedColor: string) => void;
+  onUpdateQuantity: (id: string, quantity: number, selectedColor: string) => void;
+  onRemoveItem: (id: string, selectedColor: string) => void;
 }
 
 export default function Cart({ isOpen, onClose, items, onUpdateQuantity, onRemoveItem }: CartProps) {

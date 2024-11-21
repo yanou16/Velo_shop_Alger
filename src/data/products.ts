@@ -115,7 +115,7 @@ export const products: Product[] = [
     name: 'Casque Aéro Pro',
     price: 12000,
     description: 'Casque aérodynamique léger avec excellente ventilation.',
-    category: CATEGORIES.ACCESSOIRES,
+    category: CATEGORIES.ACCESSORIES,
     subcategory: 'Casques',
     image: '/images/products/accessoires/casque-aero.jpg',
     features: [
@@ -132,14 +132,14 @@ export const products: Product[] = [
   },
   {
     id: '7',
-    name: 'Sacoche Bikepacking',
-    price: 8500,
-    description: 'Sacoche imperméable pour vos aventures en bikepacking.',
-    category: CATEGORIES.ACCESSOIRES,
+    name: 'Sac à Dos Cycliste',
+    price: 4500,
+    description: 'Sac à dos ergonomique pour cyclistes avec compartiments multiples.',
+    category: CATEGORIES.ACCESSORIES,
     subcategory: 'Sacs',
-    image: '/images/products/accessoires/sacoche.jpg',
+    image: '/images/products/accessoires/sac-dos.jpg',
     features: [
-      'Volume 10L',
+      'Volume 20L',
       '100% imperméable',
       'Fixation rapide',
       'Matériau résistant'
@@ -150,10 +150,110 @@ export const products: Product[] = [
     reviews: 34,
     colors: ['noir', 'gris']
   },
+  {
+    id: '8',
+    name: 'Gourde Isotherme',
+    price: 2500,
+    description: 'Gourde isotherme 750ml pour garder vos boissons fraîches.',
+    category: CATEGORIES.ACCESSORIES,
+    subcategory: 'Gourdes',
+    image: '/images/products/accessoires/gourde-isotherme.jpg',
+    features: [
+      'Capacité 750ml',
+      'Matériau BPA gratuit',
+      'Isolation thermique',
+      'Bouchon étanche'
+    ],
+    inStock: true,
+    brand: 'VéloShop',
+    rating: 4.6,
+    reviews: 89,
+    colors: ['noir']
+  },
+  {
+    id: '9',
+    name: 'Kit Réparation',
+    price: 3500,
+    description: 'Kit complet pour réparations basiques sur route.',
+    category: CATEGORIES.ACCESSORIES,
+    subcategory: 'Kits',
+    image: '/images/products/accessoires/kit-reparation.jpg',
+    features: [
+      'Outils de base',
+      'Pneus de rechange',
+      'Chambre à air',
+      'Guide de réparation'
+    ],
+    inStock: true,
+    brand: 'VéloShop',
+    rating: 4.9,
+    reviews: 27,
+    colors: ['argent']
+  },
+  {
+    id: '10',
+    name: 'Pompe à Main',
+    price: 2000,
+    description: 'Pompe portable compacte et légère.',
+    category: CATEGORIES.ACCESSORIES,
+    subcategory: 'Pompes',
+    image: '/images/products/accessoires/pompe-a-main.jpg',
+    features: [
+      'Poids léger',
+      'Facile à utiliser',
+      'Pression maximale 100PSI',
+      'Compatibilité universelle'
+    ],
+    inStock: true,
+    brand: 'VéloShop',
+    rating: 4.7,
+    reviews: 63,
+    colors: ['noir', 'blanc']
+  },
+  {
+    id: '11',
+    name: 'Maillot Pro Team',
+    price: 7500,
+    description: 'Maillot cycliste professionnel respirant.',
+    category: CATEGORIES.ACCESSORIES,
+    subcategory: 'Maillots',
+    image: '/images/products/accessoires/maillot-pro-team.jpg',
+    features: [
+      'Tissu technique',
+      'Coupe race',
+      '3 poches arrière',
+      'Protection UV'
+    ],
+    inStock: true,
+    brand: 'VéloShop',
+    rating: 4.8,
+    reviews: 45,
+    colors: ['noir', 'blanc']
+  },
+  {
+    id: '12',
+    name: 'Cuissard Confort',
+    price: 6500,
+    description: 'Cuissard rembourré pour plus de confort.',
+    category: CATEGORIES.ACCESSORIES,
+    subcategory: 'Cuissards',
+    image: '/images/products/accessoires/cuissard-confort.jpg',
+    features: [
+      'Tissu doux',
+      'Rembourrage optimal',
+      'Bretelles ajustables',
+      'Protection contre les éléments'
+    ],
+    inStock: true,
+    brand: 'VéloShop',
+    rating: 4.9,
+    reviews: 56,
+    colors: ['noir', 'gris']
+  },
 
   // Pièces
   {
-    id: '8',
+    id: '13',
     name: 'Pneus Tout-Terrain Pro',
     price: 6500,
     description: 'Pneus VTT haute performance pour terrains mixtes.',
@@ -173,7 +273,7 @@ export const products: Product[] = [
     colors: ['noir']
   },
   {
-    id: '9',
+    id: '14',
     name: 'Groupe Transmission',
     price: 45000,
     description: 'Groupe complet Shimano pour vélo de route.',
@@ -195,7 +295,7 @@ export const products: Product[] = [
 
   // Vêtements
   {
-    id: '10',
+    id: '15',
     name: 'Maillot Pro Team',
     price: 7500,
     description: 'Maillot cycliste professionnel respirant et aérodynamique.',
@@ -215,7 +315,7 @@ export const products: Product[] = [
     colors: ['noir', 'blanc']
   },
   {
-    id: '11',
+    id: '16',
     name: 'Cuissard Long Hiver',
     price: 8900,
     description: 'Cuissard long thermique pour le cyclisme hivernal.',
