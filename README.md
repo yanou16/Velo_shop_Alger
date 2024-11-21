@@ -20,23 +20,7 @@ Une plateforme e-commerce moderne pour la vente de vélos et d'accessoires en Al
 - Panier d'achat
 - Newsletter
 
-## Installation
 
-1. Cloner le repository
-```bash
-git clone [URL_DU_REPO]
-cd veloshop
-```
-
-2. Installer les dépendances
-```bash
-npm install
-```
-
-3. Lancer le serveur de développement
-```bash
-npm run dev
-```
 
 ## Structure du Projet
 
